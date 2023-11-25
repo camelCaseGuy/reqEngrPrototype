@@ -14,6 +14,17 @@ body {
   margin: 0;
 }
 
+.form-control {
+  display: block;
+  width: 300px;
+}
+input[type=text] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
 img#jobquestai {
   /* opacity: 0.5; */
   margin: 0 auto;

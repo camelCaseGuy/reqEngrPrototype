@@ -30,5 +30,5 @@ const output = document.getElementById('output');
 
 document.getElementById('btnLogin').addEventListener('click', () => {
   modal.style.display = "none";
-  // output.value = 
+  output.value = username.value;
 })

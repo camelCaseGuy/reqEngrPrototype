@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>JobQuestAI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="main">
+    <div class="top-nav">
+      <a href="./index.html">twitter</a>
+    </div>
+    <button id="myBtn" class="btn btn-primary">Login</button>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="close">&times;</div>
+        <hr />
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div style="padding-left: 50px">
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" class="form-control" />
+          </div>
+          <div>&nbsp;</div>
+          <div>
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password" type="password" class="form-control" />
+          </div>
+          <div>&nbsp;</div>
+          <button type="submit" id="btnLogin" class="btn btn-primary">Login</button>
+        </div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <hr />
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+      </div>
+    </div>
+    <hr />
+    <div class="bottom-nav">
+      <ul>
+        <li>
+          <span id="output"></span>
+        </li>
+        <li>
+          <a href="./resumeBuilder.html">Job Seekers</a>
+        </li>
+        <li>
+          <a href="./JobPosters.html">Job Builder</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="col-main">
+    <header>
+      <h1>
+        <a href="./index.html">JobQuestAI</a>
+      </h1>
+    </header>
+    <main class="content">
+      <article>
+        <h2>Job Matches</h2>
+        <div class="container ">
+          <div class="row">
+            <div class="col-4">
+              <p>
+
+                1 day ago
+                LVN/RN - Total $5,000 Sign-On Bonus with $1,000 Quick Holiday Start
+                Care Options For Kids Forney, TX (Onsite) Full-Time
+                Quick Apply
+              </p>
+              <p>
+
+                1 day ago
+                LVN/RN - Total $5,000 Sign-On Bonus with $1,000 Quick Holiday Start
+                Care Options For Kids Rowlett, TX (Onsite) Full-Time
+                Quick Apply
+              </p>
+              <p>
+                3 days ago
+                Pediatric Nurse RN/LVN - Dallas
+                Care Options For Kids Dallas, TX (Onsite) Full-Time
+                Quick Apply
+              </p>
+              <p>
+                24 days ago
+                Patient Care Coordinator
+                Job Snob Dallas, TX (Onsite) Full-Time
+              </p>
+              <p>
+                28 days ago
+                Academy Office Coordinator
+                Job Snob Dallas, TX (Onsite) Full-Time
+              </p>
+              <p>
+                28 days ago
+                Medical Aesthetic Trainer
+                Job Snob Dallas, TX (Onsite) Full-Time
+                T
+              </p>
+              <p>
+                Today
+                Private Duty Nurse
+                Thrive Skilled Pediatric Care LLC Highland Village, TX (Onsite) Full-Time
+                T
+              </p>
+              <p>
+                Today
+                Home Health Pediatric Nurse
+                Thrive Skilled Pediatric Care LLC Dallas, TX (Onsite) Full-Time
+                T
+              </p>
+              <p>
+                6 days ago
+                Speech Language Pathologist
+                Thrive Skilled Pediatric Care LLC Garland, TX (Onsite) Full-Time
+                M
+              </p>
+              <p>
+                Today
+                Director Digital Marketing (Healthcare)
+                MCKESSON Dallas, TX (Onsite) Full-Time
+                M
+              </p>
+              <p>
+                1 day ago
+                Lead SAP Architect - OTC, SCM-GATP, IBP
+                MCKESSON Irving, TX (Onsite) Full-Time
+                M
+              </p>
+              <p>
+                2 days ago
+                FP&A Capital Manager
+                MCKESSON Irving, TX (Onsite) Full-Time
+                W
+              </p>
+              <p>
+                Today
+                Inventory Specialist
+                WALGREENS Dallas, TX (Onsite) Full-Time
+                W
+              </p>
+              <p>
+                Today
+                Pharmacist (Full or Part Time)
+                WALGREENS Dallas, TX (Onsite) Full-Time
+                W
+              </p>
+              <p>
+                Today
+                Pharmacist (Full or Part Time)
+                WALGREENS Frisco, TX (Onsite) Full-Time
+                C
+              </p>
+              <p>
+                4 days ago
+                Home Mortgage Special Systems Project Coordinator
+                Citizens Irving, TX (Onsite) Full-Time
+                C
+              </p>
+              <p>
+                5 days ago
+                Wholesale Credit Risk Associate, Industrials - AVP (Hybrid)
+                Citi Irving, TX (Hybrid) Full-Time
+                C
+              </p>
+              <p>
+                5 days ago
+                Audit Manager - Compliance AML
+                Citi Irving, TX (Onsite) Full-Time
+                C
+              </p>
+              <p>
+                5 days ago
+                SVP, Mortgage Analytics - Hybrid
+                Citi Irving, TX (Hybrid) Full-Time
+                S
+              </p>
+              <p>
+                6 days ago
+                Principal Infrastructure Services Engineer - Richardson, TX - SC with Security Clearance
+                SOC/Day & Zimmermann Federal Services Richardson, TX (Onsite) Full-Time
+              </p>
+            </div>
+            <div class="col-8">
+              <p>
+
+              </p>
+              <p>
+
+              </p>
+              LVN/RN - Total $5,000 Sign-On Bonus with $1,000 Quick Holiday Start
+              Care Options For Kids Forney, TX (Onsite) Full-Time
+              CB Est Salary: $5000/Month
+              1-Click Apply
+              </p>
+              <p>
+
+              About the Role
+            </p>
+            <p>
+
+              At Care Options for Kids, a home health care company providing 1:1 care in the home, we do things a little
+              differently. There's no revolving door of patients or hospital setting chaos — blinking call lights,
+              scurrying doctors, and wards bursting at the seams.
+            </p>
+            <p>
+
+              Instead, you work with self-sufficient autonomy, empowered to make a real difference in your clients'
+              lives. We value your clinical knowledge and respect the deep one-on-one bond you establish with the
+              families you care for. Of course, if you need anything, your RN Clinician is only a phone call away — we
+              offer 24-hour, 365-day support and on-demand clinical resources.
+            </p>
+            <p>
+
+              A Day in the Life of a Care Options for Kids Nurse
+            </p>
+            <p>
+
+              You start your day by touching base with your care team, whether that's mom, dad, or the nurse you are
+              relieving. For added ease, in-depth information on your client is available in our dedicated EHR platform.
+            </p>
+            <p>
+
+              Your client greets you warmly. Though she's non-verbal, she'll smile and reach out to touch your face and
+              put her head to your chest for a cuddle — she's excited to see you. After disconnecting her ventilator,
+              which she only needs at night, it's time for breakfast and a light sponge bath.
+            </p>
+            <p>
+
+              From there, every day is a new adventure. You may decide to head outdoors to gaze at clouds, hunt for
+              ladybugs, or make flower crowns. You may set up a living room campout or travel back in time with a book
+              until it's time for lunch.
+            </p>
+            <p>
+
+              Throughout the day, you prepare and deliver her medications and perform her routine trach and g-tube care
+              — documenting the dosages and treatments within your dedicated EHR platform, where you're able to view and
+              compare notes and assessments easily and electronically. While your client takes a late afternoon nap, you
+              finalize your electronic documentation and touch base with the relieving member of your care team before
+              heading home.
+            </p>
+            <p>
+
+              Whatever the day brings, a day in the life of a Care Options for Kids nurse feels less like work and more
+              like caring for family. It's an opportunity to build your clinical expertise while shaping the lives of
+              your client and their loved ones every single day.
+            </p>
+            <p>
+
+              Benefits for Licensed Vocational Nurses (LVNs)
+            </p>
+            <p>
+
+              $5,000* bonus for LVN's
+              Paid Time Off (PTO) and flexible schedule
+              Medical, dental, and vision coverage
+              401(k) retirement plan with company match
+              Bi-Weekly pay and direct deposit
+              Employee events
+              Numerous Top Workplace awards
+              24/7 on-call for support
+              Training opportunities
+              Competitive pay with overtime built into your schedule
+            </p>
+            <p>
+
+              Responsibilities for Licensed Vocational Nurses (LVNs)
+            </p>
+            <p>
+
+              One-to-one nursing care in a home environment
+              Medication administration per physician orders
+              Physician ordered treatments for:
+              Nutrition via a feeding tube
+              Tracheostomy care
+              Suctioning nasal, oral and/or endotracheal
+              Ventilation care
+              Seizure assessment and treatment
+            </p>
+            <p>
+
+              Responsibilities for Licensed Vocational Nurses (LVNs)
+            </p>
+            <p>
+
+              Current, active Texas LVN license or RN license
+              Current BLS CPR card (obtained in-person, not online)
+              G-tube, trach, vent experience, or willing to train
+            </p>
+            <p>
+
+              About Care Options for Kids
+            </p>
+            <p>
+
+              Care Options for Kids is the leading provider of pediatric nursing services. Our pediatric RN's and LVN's
+              are committed to quality and compassionate care for all of the children and families we serve. We
+              continuously demonstrate our commitment to exceptional patient care, high-quality services with
+              outstanding customer service.
+            </p>
+            <p>
+
+              With locations in Colorado, Texas, Arizona, Nevada, Florida, Oregon, Washington, California, and Wyoming,
+              the Care Options for Kids Community offers a wide range of pediatric health services, including pediatric
+              therapies, ABA therapy, nursing, Family Caregiver Services, and school-based services.
+            </p>
+            <p>
+
+              *Bonus for eligible cases only. The eligible employee will receive $500 for every 250 billable hours
+              worked up to $5,000. Eligible employees must complete the pre-onboarding process within 10 days of
+              submission of the initial application. Valid for first-time employees only and on completion of all
+              required documents. Parents and/or Guardians of a Care Options for Kids clients or a potential Care
+              Options for Kids clients are not eligible to receive a bonus. Not to be combined with any other Care
+              Options for Kids offers. Talk with your dedicated recruiter for more information.
+            </p>
+            <p>
+
+              *Bonus for eligible cases only. The eligible employee may qualify for a $1000 Holiday Bonus if the
+              employee works a minimum of 250 hours during the months of November and December 2023. Holiday Bonus
+              payout eligible employees will receive a payout of $500 for every 125 hours worked up to $1,000. Employee
+              will receive $500 for every 250 billable hours worked outside the holiday bonus period up to $5,000.
+              Eligible bonus does not exceed $5000 in total payouts. Eligible employees must complete the pre-onboarding
+              process within 10 days of submission of the initial application. Valid for first-time employees only and
+              on completion of all required documents. Parents and/or Guardians of a Care Options for Kids client or a
+              potential Care Options for Kids client are not eligible to receive a bonus. Not to be combined with any
+              other Care Options for Kids offers. Talk with your dedicated Care Options for Kids recruiter for more
+              information.
+            </p>
+            <p>
+            Recommended Skills
+            </p>
+            <p>
+
+              Assessments Basic Life Support Cpr Clinical Works Licensed Vocational Nurses Self Motivation
+
+
+            </div>
+          </div>
+        </div>
+
+  </div>
+  </article>
+  </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

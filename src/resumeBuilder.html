@@ -33,7 +33,7 @@
             <div>&nbsp;</div>
             <div>
               <label for="password">Password:</label>
-              <input type="text" name="password" id="password" class="form-control" />
+              <input type="text" name="password" id="password" type="password" class="form-control" />
             </div>
             <div>&nbsp;</div>
             <button type="submit" id="btnLogin" class="btn btn-primary">Login</button>
@@ -70,50 +70,58 @@
         <article>
           <h2>Job Seekers</h2>
           <p>
-            I am a tech lead working in the software industry for the last ten
-            years. I am proficient in Python 3.0 and TypeScript 5.4 . I have
-            used MySQL and MongoDB in the past.
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="67" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar" style="width: 67%"></div>
+            </div>
           </p>
-          <p>
-            [Your Name][Your Address] | [City, State, Zip] | [Phone] | [Email]
-          </p>
-          <p>
-            SummaryExperienced Tech Lead with a 10-year track record in the
-            software industry, proficient in leading teams and projects, and
-            expert in Python 3.0, TypeScript 5.4, MySQL, and MongoDB.
-          </p>
-          <p>Professional Experience</p>
-          <p>Tech Lead | [Current Company] | [Location] | [Dates]</p>
-          <p>
-            Led a team of [X] developers, fostering a collaborative environment
-            that encouraged innovation and the meeting of all project deadlines.
-            Developed, tested, and deployed [X] high-impact projects using
-            Python 3.0 and TypeScript 5.4, ensuring optimal performance and user
-            satisfaction. Conducted code reviews and provided mentorship,
-            enhancing team coding skills and project outcomes. Interfaced with
-            cross-functional teams and stakeholders to define requirements,
-            ensuring successful project delivery.
-          </p>
-          <p>[Previous Title] | [Previous Company] | [Location] | [Dates]</p>
-          <p>
-            [Description of responsibilities, achievements, and skills related
-            to this position.]
-          </p>
-          <p>
-            Education[Bachelor’s/Master's] in Computer Science | [University
-            Name] | [Graduation Date]
-          </p>
-          <p>Skills</p>
-          <p>
-            Programming: Python 3.0, TypeScript 5.4 Databases: MySQL, MongoDB
-            [Other relevant skills]
-          </p>
-          <p>Certifications</p>
-          <p>[Any relevant certifications]</p>
-          <p>Professional Associations</p>
-          <p>[Any relevant professional associations]</p>
-          <p>ReferencesAvailable upon request</p>
-          <p>has context menu Compose</p>
+          <div>
+            <textarea name="resumeBuilder" id="resumeBuilder" cols="65" rows="30">
+                I am a tech lead working in the software industry for the last ten
+                years. I am proficient in Python 3.0 and TypeScript 5.4 . I have
+                used MySQL and MongoDB in the past.
+              
+                SummaryExperienced Tech Lead with a 10-year track record in the
+                software industry, proficient in leading teams and projects, and
+                expert in Python 3.0, TypeScript 5.4, MySQL, and MongoDB.
+
+                Professional Experience
+                Tech Lead | [Current Company] | [Location] | [Dates]
+
+                Led a team of [X] developers, fostering a collaborative environment
+                that encouraged innovation and the meeting of all project deadlines.
+                Developed, tested, and deployed [X] high-impact projects using
+                Python 3.0 and TypeScript 5.4, ensuring optimal performance and user
+                satisfaction. Conducted code reviews and provided mentorship,
+                enhancing team coding skills and project outcomes. Interfaced with
+                cross-functional teams and stakeholders to define requirements,
+                ensuring successful project delivery.
+
+                [Previous Title] | [Previous Company] | [Location] | [Dates]
+
+                [Description of responsibilities, achievements, and skills related
+                to this position.]
+
+
+                Education[Bachelor's/Master's] in Computer Science | [University
+                Name] | [Graduation Date]
+
+                Skills
+
+                Programming: Python 3.0, TypeScript 5.4 Databases: MySQL, MongoDB
+                [Other relevant skills]
+
+                Certifications
+                [Any relevant certifications]
+                Professional Associations
+                [Any relevant professional associations]
+                ReferencesAvailable upon request
+                has context menu Compose
+                </textarea>
+                <br>
+                <br>
+                <button class="btn btn-primary" onclick="location.href = 'resumeMatches.html';" >Get Matches</button>
+          </div>
         </article>
       </main>
     </div>

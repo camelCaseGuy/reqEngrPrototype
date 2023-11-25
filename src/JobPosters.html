@@ -30,7 +30,7 @@
           <div>&nbsp;</div>
           <div>
             <label for="password">Password:</label>
-            <input type="text" name="password" id="password" class="form-control" />
+            <input type="text" name="password" id="password" type="password" class="form-control" />
           </div>
           <div>&nbsp;</div>
           <button type="submit" id="btnLogin" class="btn btn-primary">Login</button>
@@ -45,6 +45,9 @@
     <hr />
     <div class="bottom-nav">
       <ul>
+        <li>
+          <span id="output"></span>
+        </li>
         <li>
           <a href="./resumeBuilder.html">Job Seekers</a>
         </li>
@@ -69,31 +72,26 @@
         </div>
         <hr>
         <p class="bg-light">
-          <textarea name="" id="" cols="100" rows="5">
+          <textarea name="" id="" cols="100" rows="30">
             We are a renowned Wine company looking for a Marketing director with
             experience in SaaS, with at least 5 years of experience, and good
             personal skills. Should live close to the Denver, CO area. We have
             great perks, only work 4 days a week, and plenty of food in our
             office
-          </textarea>
-          <br>
-          <button class="btn btn-primary">Post</button>
-        </p>
-        <p class="bg-light">
-          <strong>Title:</strong> Marketing Director (SaaS Experience Preferred)
-          <br><br>
-          <strong>Company:</strong> [Your Company Name] - A Prestigious Wine Enterprise Location: Denver, CO
-          (Proximity Preferred)
-          <br><br>
-          <strong>About Us:</strong>[Your Company Name] is a reputable
-          name in the wine industry, known for our passion for quality and
-          exceptional taste. We are currently seeking a seasoned Marketing
-          Director with a knack for SaaS platforms to join our innovative team
-          in Denver, CO. This position calls for a strategic thinker who can
-          drive marketing initiatives that resonate with our audience and
-          propel our brand to greater heights.
-          <br><br>
-          <strong>Key Responsibilities:</strong>
+            <strong>Title:</strong> Marketing Director (SaaS Experience Preferred)
+            <br><br>
+            <strong>Company:</strong> [Your Company Name] - A Prestigious Wine Enterprise Location: Denver, CO
+            (Proximity Preferred)
+            <br><br>
+            <strong>About Us:</strong>[Your Company Name] is a reputable
+            name in the wine industry, known for our passion for quality and
+            exceptional taste. We are currently seeking a seasoned Marketing
+            Director with a knack for SaaS platforms to join our innovative team
+            in Denver, CO. This position calls for a strategic thinker who can
+            drive marketing initiatives that resonate with our audience and
+            propel our brand to greater heights.
+            <br><br>
+            <strong>Key Responsibilities:</strong>
             Develop and implement robust marketing strategies to bolster brand awareness
             and market share. Leverage SaaS platforms for marketing automation,
             analytics, and customer engagement. Lead cross-functional teams to
@@ -114,7 +112,10 @@
             cover letter to [email address] by [application deadline]. Please
             include your name and the position you are applying for in the
             subject line. has context menu
+          </textarea>
         </p>
+        <br>
+        <button class="btn btn-primary" onclick="location.href = 'candidateMatches.html';" >Get Candidates</button>
       </article>
     </main>
   </div>
