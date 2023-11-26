@@ -14,20 +14,53 @@ body {
   margin: 0;
 }
 
+h1 a {
+  text-decoration: none;
+}
+
+.progress {
+  width: 800px;
+  height: 5px;
+  background: #d4e0e8;
+  margin: 30px 10px 30px 10px;
+  border: 1px solid #888;
+}
+
 .form-control {
   display: block;
   width: 300px;
 }
-input[type=text] {
+input[type=text], input[type=password] {
   width: 300px;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
+a.link-primary {
+  cursor: pointer;
+}
+#sideLogo {
+  width: 8%;
+  position: absolute;
+  bottom: 10px
+
+}
+
+.card {
+  width: 825px;
+  padding: 10px;
+}
+
+#build{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
 img#jobquestai {
   /* opacity: 0.5; */
-  margin: 0 auto;
+  margin: 0 220px;
   display: block;
 }
 /* The Modal (background) */

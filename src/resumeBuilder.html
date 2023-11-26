@@ -14,9 +14,7 @@
 
   <body>
     <nav class="main">
-      <div class="top-nav">
-        <a href="./index.html">twitter</a>
-      </div>
+
       <button id="myBtn" class="btn btn-primary">Login</button>
 
       <div id="myModal" class="modal">
@@ -33,7 +31,7 @@
             <div>&nbsp;</div>
             <div>
               <label for="password">Password:</label>
-              <input type="text" name="password" id="password" type="password" class="form-control" />
+              <input name="password" id="password" type="password" class="form-control" />
             </div>
             <div>&nbsp;</div>
             <button type="submit" id="btnLogin" class="btn btn-primary">Login</button>
@@ -52,11 +50,18 @@
             <span id="output"></span>
           </li>
           <li>
-            <a href="./resumeBuilder.html">Job Seekers</a>
+            <a  class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" onclick="window.location='./resumeBuilder.html'+window.location.search;">Resume Builder</a>
           </li>
           <li>
-            <a href="./JobPosters.html">Job Builder</a>
+            <a class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" onclick="window.location='./JobPosters.html'+window.location.search;">Job Builder</a>
           </li>
+          <li>
+            <a class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" onclick="window.location='./resumeMatches.html'+window.location.search;">Resume Matches</a>
+          </li>
+          <li>
+            <a class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" onclick="window.location='./candidateMatches.html'+window.location.search;">Candidate Matches</a>
+          </li>
+          <div><img src="JobQuestAI.png" alt="" id="sideLogo" /></div>
         </ul>
       </div>
     </nav>
@@ -68,55 +73,60 @@
       </header>
       <main class="content">
         <article>
-          <h2>Job Seekers</h2>
+          <h2>Resume Builder</h2>
+          <div class="card">
+            I am a tech lead working in the software industry for the last ten
+            years. I am proficient in Python 3.0 and TypeScript 5.4 . I have
+            used MySQL and MongoDB in the past.
+            <br>
+            <br>
+            &nbsp;
+            <button id="build" class="btn btn-primary">Build Resume</button>
+          </div>
           <p>
             <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="67" aria-valuemin="0"
               aria-valuemax="100">
-              <div class="progress-bar" style="width: 67%"></div>
+              <div class="progress-bar" style="width: 67%">Building Resume Profile</div>
             </div>
           </p>
           <div>
-            <textarea name="resumeBuilder" id="resumeBuilder" cols="65" rows="30">
-                I am a tech lead working in the software industry for the last ten
-                years. I am proficient in Python 3.0 and TypeScript 5.4 . I have
-                used MySQL and MongoDB in the past.
-              
-                SummaryExperienced Tech Lead with a 10-year track record in the
+            <textarea name="resumeBuilder" id="resumeBuilder" cols="88" rows="30">
+                Summary:
+                Experienced Tech Lead with a 10-year track record in the
                 software industry, proficient in leading teams and projects, and
                 expert in Python 3.0, TypeScript 5.4, MySQL, and MongoDB.
 
-                Professional Experience
-                Tech Lead | [Current Company] | [Location] | [Dates]
+                Professional Experience:
+                Tech Lead | CompCo | Loc, TX | 2018 - Present
 
-                Led a team of [X] developers, fostering a collaborative environment
+                Led a team of 5 developers, fostering a collaborative environment
                 that encouraged innovation and the meeting of all project deadlines.
-                Developed, tested, and deployed [X] high-impact projects using
+                Developed, tested, and deployed three high-impact projects using
                 Python 3.0 and TypeScript 5.4, ensuring optimal performance and user
                 satisfaction. Conducted code reviews and provided mentorship,
                 enhancing team coding skills and project outcomes. Interfaced with
                 cross-functional teams and stakeholders to define requirements,
                 ensuring successful project delivery.
 
-                [Previous Title] | [Previous Company] | [Location] | [Dates]
+                Lead | PrevCo. | Otro, TX | 2015 - 2018
 
-                [Description of responsibilities, achievements, and skills related
-                to this position.]
+                Led a team of 8 developers, fostering a collaborative environment
 
-
-                Education[Bachelor's/Master's] in Computer Science | [University
-                Name] | [Graduation Date]
+                Education:
+                Master's in Computer Science | UTDallas | Dallas, TX | 2015
 
                 Skills
 
                 Programming: Python 3.0, TypeScript 5.4 Databases: MySQL, MongoDB
-                [Other relevant skills]
 
                 Certifications
-                [Any relevant certifications]
+                Java Certification | Oracle | 2015
+
                 Professional Associations
-                [Any relevant professional associations]
-                ReferencesAvailable upon request
-                has context menu Compose
+                Member | IEEE | 2015 - Present
+                
+                References:
+                Available upon request
                 </textarea>
                 <br>
                 <br>

@@ -11,9 +11,7 @@
 
 <body>
   <nav class="main">
-    <div class="top-nav">
-      <a href="./index.html">twitter</a>
-    </div>
+
     <button id="myBtn" class="btn btn-primary">Login</button>
 
     <div id="myModal" class="modal">
@@ -30,7 +28,7 @@
           <div>&nbsp;</div>
           <div>
             <label for="password">Password:</label>
-            <input type="text" name="password" id="password" type="password" class="form-control" />
+            <input name="password" id="password" type="password" class="form-control" />
           </div>
           <div>&nbsp;</div>
           <button type="submit" id="btnLogin" class="btn btn-primary">Login</button>
@@ -49,11 +47,18 @@
           <span id="output"></span>
         </li>
         <li>
-          <a href="./resumeBuilder.html">Job Seekers</a>
+          <a  class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" onclick="window.location='./resumeBuilder.html'+window.location.search;">Resume Builder</a>
         </li>
         <li>
-          <a href="./JobPosters.html">Job Builder</a>
+          <a class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" onclick="window.location='./JobPosters.html'+window.location.search;">Job Builder</a>
         </li>
+        <li>
+          <a class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" onclick="window.location='./resumeMatches.html'+window.location.search;">Resume Matches</a>
+        </li>
+        <li>
+          <a class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" onclick="window.location='./candidateMatches.html'+window.location.search;">Candidate Matches</a>
+        </li>
+        <div><img src="JobQuestAI.png" alt="" id="sideLogo" /></div>
       </ul>
     </div>
   </nav>
@@ -66,39 +71,48 @@
     <main class="content">
       <article>
         <h2>Job Builder</h2>
+        <div class="card">
+          We are a renowned Wine company looking for a Marketing director with
+          experience in SaaS, with at least 5 years of experience, and good
+          personal skills. Should live close to the Denver, CO area. We have
+          great perks, only work 4 days a week, and plenty of food in our
+          office
+          <br>
+          <br>
+          &nbsp;
+          <button id="build" class="btn btn-primary">Build Job</button>
+        </div>
         <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
           aria-valuemax="100">
-          <div class="progress-bar" style="width: 50%"></div>
+          <div class="progress-bar" style="width: 50%">Build Progress</div>
         </div>
-        <hr>
         <p class="bg-light">
-          <textarea name="" id="" cols="100" rows="30">
-            We are a renowned Wine company looking for a Marketing director with
-            experience in SaaS, with at least 5 years of experience, and good
-            personal skills. Should live close to the Denver, CO area. We have
-            great perks, only work 4 days a week, and plenty of food in our
-            office
-            <strong>Title:</strong> Marketing Director (SaaS Experience Preferred)
-            <br><br>
-            <strong>Company:</strong> [Your Company Name] - A Prestigious Wine Enterprise Location: Denver, CO
+          <textarea name="" id="" cols="88" rows="30">
+
+            Title: Marketing Director (SaaS Experience Preferred)
+            
+            Company: 
+            CompCo - A Prestigious Wine Enterprise Location: Denver, CO
             (Proximity Preferred)
-            <br><br>
-            <strong>About Us:</strong>[Your Company Name] is a reputable
-            name in the wine industry, known for our passion for quality and
+            
+            About Us:
+            CompCo is a reputable name in the wine industry,
+             known for our passion for quality and
             exceptional taste. We are currently seeking a seasoned Marketing
             Director with a knack for SaaS platforms to join our innovative team
             in Denver, CO. This position calls for a strategic thinker who can
             drive marketing initiatives that resonate with our audience and
             propel our brand to greater heights.
-            <br><br>
-            <strong>Key Responsibilities:</strong>
+            
+            Key Responsibilities:
             Develop and implement robust marketing strategies to bolster brand awareness
             and market share. Leverage SaaS platforms for marketing automation,
             analytics, and customer engagement. Lead cross-functional teams to
             achieve project goals and marketing objectives. Analyze market
             trends and competitors to inform marketing strategies.
-            <br><br>
-            <strong>Qualifications:</strong> Bachelor’s degree in Marketing, Business, or related
+            
+            Qualifications: 
+            Bachelor's degree in Marketing, Business, or related
             field. A minimum of 5 years of experience in marketing, with a focus
             on SaaS platforms. Exceptional interpersonal and communication
             skills. Proven track record of managing successful marketing
@@ -107,8 +121,8 @@
             available in our office. Experience a collaborative and innovative
             work environment. Avail of our attractive perks including [mention
             any other benefits like health insurance, 401(k), etc.]
-            <br><br>
-            <strong>Application Process:</strong> Interested candidates are invited to send a resume and
+            
+            Application Process: Interested candidates are invited to send a resume and
             cover letter to [email address] by [application deadline]. Please
             include your name and the position you are applying for in the
             subject line. has context menu
