@@ -37,6 +37,9 @@ input[type=text], input[type=password] {
   box-sizing: border-box;
 }
 
+article {
+  max-width: 1300px;
+}
 a.link-primary {
   cursor: pointer;
 }
